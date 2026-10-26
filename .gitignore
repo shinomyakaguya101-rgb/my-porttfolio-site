@@ -1,0 +1,13 @@
+# Local development files
+preview.cjs
+node_modules/
+.vercel/
+
+# Environment files
+.env
+.env.*
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
