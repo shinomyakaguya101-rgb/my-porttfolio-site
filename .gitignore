@@ -1,13 +1,43 @@
-# Local development files
+# Public frontend repository only
 preview.cjs
 node_modules/
 .vercel/
 
-# Environment files
+# Credentials and local environment
 .env
 .env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
 
-# Logs and operating-system files
+# Private workspace and workflow material
+.checks/
+.codex/
+.agents/
+.aws/
+assets/
+pipeline/
+shared/
+references/
+workflow_images/
+AGENTS.md
+CONTEXT.md
+MIGRATION-PATHS.md
+STATUS.md
+DECISIONS.md
+ICM_STRUCTURE.md
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.har
+*.map
+
+# Local logs and system files
 *.log
 .DS_Store
 Thumbs.db
